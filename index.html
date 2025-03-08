@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>End malaria</title>
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <figure class="nav__figure">
+        <img src="public/logo2-removebg-preview 5.png" alt="logo" />
+      </figure>
+      <div class="options">
+        <a href="#welcome">መግቢያ</a>
+        <a href="#products">ምርታችን</a>
+        <a href="#about">ስለ እኛ</a>
+        <a href="#contact">አግኙን</a>
+      </div>
+    </nav>
+    <section id="welcome">
+      <div class="background__section1"></div>
+      <div class="welcome_text">
+        <p>
+          የወባ ትንኞችን ስርጭት ለመግታት እና እራስዎን <br />
+          ከወባ ለመጠበቅ የእኛን <span class="highlight--green">አውቶማቲክ</span> የወባ <br />
+          ትንኝ መከላኬያ መርጫ ይጠቀሙ
+        </p>
+        <button class="more--button">ይበልጥ ለማወቅ</button>
+      </div>
+    </section>
+    <section id="products">
+      <h1 class="section2__title">ምርታችንን ይዘዙ</h2>
+      <div class="section2__container">
+     
+        <figure class="products__item">
+          <img
+            class="img"
+            src="public/product (3).png"
+            alt="product"
+         
+            width="120%"
+        
+          />
+        </figure>
+
+        <figure class="products__item">
+          <figcaption>የአጠቃቀም መረጃ</figcaption>
+          <img
+            class="img"
+            src="public/end-malaria-manual.png"
+            alt="manua"
+            width="40%"
+          />
+        </figure>
+    
+<div class="instructions">
+       <p class="section2__p">
+        <span class="highlight--green">1</span> የአሰራር ሁኔታ ለመከታተል <br>
+        <span class="highlight--green">2</span> ለማብራት እና ለማጥፋት <br />
+          
+            <span class="highlight--green">3</span> የማሳያውን ብርሀን ለመጨመር <br />
+            እና ለመቀነስ
+        </p>
+    </div>
+      </div>
+    </section>
+    <section id="about">
+        <div class="about__img">
+            <figure>
+                <img src="public/product.png" alt="mosquito" width="105%">
+            </figure>
+        </div>
+        <div class="about__text">
+        <h2 class="highlight--green about__h2">ስለ እኛ</h2>
+        <div>
+        <p class="about__p">የወባ ስርጭትን በራስ ሰር እና ቀልጣፋ በመታገል የወባ ስርጭትን ለመግታት የሚረዳ አውቶማቲክ የወባ ትንኝ <br> መከላከያ ማሽን በማምረት እና በማከፋፈል ላይ ያተኮረ አዲስ አበባ ላይ የተመሰረተ ቡድን ነን።</p></div>
+        <div class="button__container">
+        <button class="about__button">አግኙን</button>
+    </div>
+    </div>
+        
+    </section>
+    <section id="order">
+        <div class="order__box">
+            <h2 class="order__h2">እራሰወን ከወባ ትንኝ ይከላከሉ</h2>
+            <p class="order__p">ዛሬውኑ አውቶማቲክ የወባ ትንኝ መከላኬያ መርጫወን ያግኙኙ!</p>
+            <button class="order__button"><a class="order__a" href="#place__order">ይዘዙ</a> 
+            </button>
+        </div>
+    </section>
+    <section id="place__order">
+        <h2 class="place__order--h2">ምርታችንን ይዘዙ</h2>
+        <div class="containerr">
+        <figure>
+            <figcaption>የእቃው ምስል</figcaption>
+            <img  class="place__order--img" src="public/Group 1000003405.png" alt="product" width="80%">
+        </figure>
+        <form  class="form">
+            <div class="item1">
+        <label for="id" id="id">የእቃው መለያመለያ</label>
+        <input class="input readonly" type="text" name="የእቃው መለያመለያ" id="id" value="#On12345" readonly autocomplete="hi">
+        <label for="measurement" id="id">መለኪያ *
+        </label>
+        <input class="input readonly type="text" name="መለኪያ
+        " id="measurement" value="ቁጥር" readonly autocomplete="hi">
+        <label for="region" id="id">ክልል *</label>
+        <input class="input" type="text" name="ክልል" id="region" placeholder="አፋር">
+        <label for="wareda" id="id">ወረዳ *</label>
+        <input class="input" type="text" name="ወረዳ" id="wareda" placeholder="ዙሩ">
+      
+    </div>
+    <div class="item2">
+         <label for="quantity" id="id">የትእዛዝ ብዛት
+        </label>
+         <input class="input number" type="number" name="የትእዛዝ ብዛት
+         " id="quantity" placeholder="200">
+         <label " for="ind_price" id="id">የእያንዳንዱ ዋጋ
+         </label>
+         <input class="input readonly" type="text" name="የእያንዳንዱ ዋጋ
+         " id="ind_price" readonly value="250 ETB" autocomplete="hi">
+         <label  for="city" id="id">ከተማ *</label>
+         <input class="input" type="text" name="ከተማ" id="city" placeholder="አሳያ">
+         <label  for="phone" id="id">ስልክ ቁጥር *</label>
+         <input class="input" type="text" name="ስልክ ቁጥር" id="phone" placeholder="09********45" >
+        
+          
+    </div>
+    <div class="item3">
+        <label  for="total" id="id">ጠቅላላ ዋጋ</label>
+        <input class="input readonly" type="text" name="ጠቅላላ ዋጋ" id="total" placeholder="250">
+    </div>
+    <div class="buttons">
+    <button class="reset__button" type="reset">ይመለሱ</button>
+    <button class="submit__button" type="submit">ይዘዙ
+    </button>
+</div>
+    </form>
+    </div>
+    </section>
+    <footer id="contact">
+        <div class="footer__1">
+          <div class="footer_img_container">
+            <img class="footer__img" width="80%" src="public/logo2-removebg-preview 5.png" alt="footer image">
+          </div>
+            <p class="f1__p">ያለስጋት ይኑሩ!</p>
+            <img src="public/Screenshot 2025-03-05 160714.png" alt="contact" class="contact_img">
+        </div>
+        <div class="footer__2">
+            <p class="f2__p">
+            <span class="bolder">መግቢያ
+            </span> <br>
+            ምርታችን <br>
+                ያግኙን <br>
+                ስለ እኛ</p>
+         </div>
+            <div class="footer__3">
+                <p class="f3__p">
+            <span class="bolder">እኛን ለማግኝት
+            </span>
+            <br>
+          endmalariae@gmail.com <br>
+                www.endmalaria.com <br>
+                +251-9-56-98-21</p>
+        </div>
+    </footer>
+  </body>
+</html>
